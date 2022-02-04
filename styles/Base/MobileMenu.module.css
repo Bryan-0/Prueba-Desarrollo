@@ -1,0 +1,46 @@
+.menuContainer {
+    position: absolute;
+    transform: translateX(-100%);
+    transition: transform .5s ease-in-out;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 1rem;
+    height: 100vh;
+    width: 75vw;
+    z-index: 100;
+}
+
+@media (max-width: 768px) {
+    .menuContainerOpen {
+        transform: translateX(0px);
+    }
+
+    .backgroundOpacity {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 50;
+    }
+
+    .menuWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menuOptions {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 2rem;
+        width: 90%;
+    }
+
+    .closeMenuBtn {
+        position: absolute;
+        right: 1rem;
+    }
+}

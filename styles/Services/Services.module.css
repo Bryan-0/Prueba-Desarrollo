@@ -1,0 +1,74 @@
+.servicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servicesWrapper {
+    margin-top: -2.5rem;
+    padding: 2rem .5rem;
+    width: 80vw;
+    background-color: white;
+}
+
+.servicesTitle {
+    color: var(--color-primary-light);
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.servicesParagraph {
+    color: var(--color-greyish-brown);
+    font-size: 1.1rem;
+    margin-top: -6px;
+    text-align: center;
+}
+
+.servicesGridWrapper {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.serviceTitle {
+    color: var(--color-primary-light);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.serviceContent {
+    color: var(--color-greyish-brown);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.mobileViewServices {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .servicesWrapper {
+        margin-top: 0px;
+        padding: .5rem .2rem 2rem .2rem;
+        width: 90vw;
+    }
+    .desktopViewServices {
+        display: none;
+    }
+    .mobileViewServices {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.2rem;
+    }
+    .mobileViewContent {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    .mobileServiceContent {
+        margin-top: -1rem;
+    }
+}

@@ -1,0 +1,45 @@
+.citaImgBackground {
+    background-image: url('/images/citaMobile/cita.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.citaTitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+    padding: .5rem 0;
+}
+
+.contentWrapper {
+    padding: 2rem 0;
+}
+
+.citaContent {
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+.citaButton {
+    border-radius: 100px;
+    width: 75%;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    border: 2.5px solid white;
+}
+
+.citaButtonWrapper {
+    padding: 1rem 0 2.5rem 0;
+}
+
+@media (min-width: 768px) {
+    .citaImgBackground {
+        display: none;
+    }
+}

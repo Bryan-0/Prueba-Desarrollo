@@ -1,0 +1,85 @@
+.navContainer {
+    padding: 1rem 3rem;
+    border-bottom: solid 0.5px #eaeaea;
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logosContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2.5px;
+    color: var(--color-greyish-brown);
+}
+
+.menuOption {
+    border-bottom: solid 2.5px white;
+}
+
+.menuOption:hover {
+    border-bottom: solid 2.5px var(--color-primary);
+}
+
+.selectedOption {
+    border-bottom: solid 2.5px var(--color-primary);
+}
+
+.phoneNumberText {
+    margin-left: -5px;
+    color: var(--color-greyish-brown);
+}
+
+.textPrimary {
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.textDark {
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.mobileMenuBtn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menuContainer {
+        display: none;
+    }
+    .phoneNumberText {
+        display: none;
+    }
+    .navContainer {
+        padding: 1rem 1rem;
+    }
+
+    .mobileView {
+        margin-right: -10px;
+    }
+
+    .mobileMenuBtn {
+        display: block;
+    }
+}

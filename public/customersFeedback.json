@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Sarah M.",
+            "content": "Fue realmente fácil, en una semana vendí mi piso",
+            "imgSrc": "/images/feedback/sonia.png"
+        },
+        {
+            "id": 2,
+            "name": "Brayan A.",
+            "content": "La forma más eficaz y sencilla de vender mi casa",
+            "imgSrc": "/images/feedback/brayan-UNSPLASH.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Maricely T.",
+            "content": "Encontré los mejores precios y la mejor ubicación",
+            "imgSrc": "/images/feedback/maricely-UNSPLASH.jpeg"
+        }
+    ]
+}

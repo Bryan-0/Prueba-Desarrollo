@@ -1,0 +1,26 @@
+.desktopCitaImg {
+    position: relative;
+    z-index: -100;
+    margin-top: 14rem;
+}
+.citaImg {
+    width: 100%;
+    height: auto;
+}
+
+.mobileCitaImg {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktopCitaImg {
+        display: none;
+    }
+
+    .mobileCitaImg {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,121 @@
+.stepsImgBackground {
+    background-image: url('/images/backgrounds/bg-steps.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.stepsWrapper {
+    width: 80%;
+}
+
+.stepsMainTitle {
+    color: var(--color-primary);
+    font-size: 2rem;
+    margin-top: 20rem;
+}
+
+.stepsParagraph {
+    color: var(--color-greyish-brown);
+}
+
+.gridStepsWrapper {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.stepNumber {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepTitle {
+    color: var(--color-greyish-brown);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.stepContent {
+    color: var(--color-warm-grey);
+    font-weight: 200;
+}
+
+.stepImage {
+    width: 100%;
+    height: auto;
+}
+
+.mobileStepTitle {
+    display: none;
+}
+
+.mobileStepImage {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .stepsImgBackground {
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    .stepsWrapper {
+        width: 100%;
+    }
+
+    .stepsMainTitle {
+        margin-top: 1rem;
+    }
+
+    .desktopStepImage {
+        display: none;
+    }
+
+    .stepTitle {
+        display: none;
+    }
+
+    .stepsParagraph {
+        padding: .5rem 1rem;
+    }
+
+    .mobileStepTitleWrapper {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .mobileStepTitle {
+        display: block;
+        color: var(--color-greyish-brown);
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .mobileStepImage {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .stepsImgBackground {
+        margin-top: -2rem;
+    }
+}

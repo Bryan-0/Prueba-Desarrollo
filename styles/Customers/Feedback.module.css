@@ -1,0 +1,134 @@
+.feedbackWrapper {
+    text-align: center;
+    padding: 1rem .5rem;
+}
+
+.feedbackSectionTitle {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-top: 1rem;
+    color: var(--color-primary);
+}
+
+.feedbackContent {
+    color: var(--color-greyish-brown);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: .3rem .5rem;
+}
+
+.feedbackImg {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.customerFeedbackContent {
+    text-align: left;
+    padding: .8rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--color-primary);
+    font-style: italic;
+}
+
+.customerFeedbackName {
+    width: 100%;
+    padding: .5rem 1.4rem;
+    text-align: left;
+    color: var(--color-greyish-brown);
+}
+
+.feedbackQuotes {
+    position: absolute;
+    bottom: 2.5rem;
+    left: .5rem;
+    z-index: -1;
+}
+
+.feedbackNavContainer {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.feedbackNavigation {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #dedede;
+}
+
+.feedbackNavigationActive {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-primary);
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #f8f8f8;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 0;
+}
+
+.slider > div {
+    scroll-snap-align: start;
+}
+
+.slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.desktopWrapper {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .feedbackWrapper {
+        padding: .2rem 0;
+    }
+    .slider {
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
+        margin-bottom: 1.2rem;
+    }
+    .slide {
+        flex-shrink: 1;
+        width: 100%;
+    }
+    .desktopWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .feedbackNavContainer {
+        display: none;
+    }
+    .feedbackImg {
+        height: 340px;
+        border-radius: 10px;
+    }
+    .feedbackSectionTitle {
+        font-size: 2em;
+    }
+}
