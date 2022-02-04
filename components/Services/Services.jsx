@@ -1,7 +1,7 @@
 import styles from '../../styles/Services/Services.module.css';
 import ServicesGrid from './ServicesGrid';
 
-export default () => (
+const Services = () => (
     <div className={styles.servicesContainer}>
         <div className={styles.servicesWrapper}>
             <h2 className={styles.servicesTitle}>
@@ -16,3 +16,5 @@ export default () => (
         </div>
     </div>
 )
+
+export default Services;

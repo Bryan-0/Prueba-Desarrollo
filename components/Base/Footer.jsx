@@ -56,7 +56,7 @@ const mobileContactContainer = (
     </div>
 );
 
-export default () => (
+const Footer = () => (
     <footer className={styles.footerWrapper}>
         <div className={styles.desktopView}>
             <div className={styles.footerContainer}>
@@ -91,3 +91,5 @@ export default () => (
         <hr className={styles.footerLine} color="#e5e5e5" />
     </footer>
 )
+
+export default Footer;

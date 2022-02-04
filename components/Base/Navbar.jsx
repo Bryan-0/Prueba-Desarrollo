@@ -58,7 +58,7 @@ export const brandLogo = (
     </>
 )
 
-export default () => {
+const Navbar = () => {
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -101,3 +101,5 @@ export default () => {
         </>
     )
 }
+
+export default Navbar;

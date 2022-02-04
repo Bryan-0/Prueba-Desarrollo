@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import styles from '../../styles/Base/MobileMenu.module.css';
 import { brandText, renderMenuOptions } from './Navbar';
 
-export default ({ isOpen, toggleMenu }) => {
+const MobileMenu = ({ isOpen, toggleMenu }) => {
 
     useEffect(() => {
         if (isOpen) {
@@ -29,3 +29,5 @@ export default ({ isOpen, toggleMenu }) => {
         </div>
     )
 };
+
+export default MobileMenu;

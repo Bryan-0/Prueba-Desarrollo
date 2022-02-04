@@ -6,7 +6,7 @@ const playerIcon = (
     </div>
 )
 
-export default () => (
+const Header = () => (
     <div className={styles.headerImgBackground}>
         <h1>
             Vende tu casa <br /> 
@@ -30,3 +30,5 @@ export default () => (
         </button>
     </div>
 )
+
+export default Header;

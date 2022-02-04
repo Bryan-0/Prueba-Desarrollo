@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import styles from '../../styles/Customers/Companies.module.css';
 
-export default () => (
+const Companies = () => (
     <div className={styles.companiesContainer}>
         <div className={styles.mainTitle}>Trabajamos con las mejores empresas</div>
         <p className={styles.content}>
@@ -21,3 +21,5 @@ export default () => (
         </Container>
     </div>
 )
+
+export default Companies;

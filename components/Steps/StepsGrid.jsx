@@ -55,7 +55,7 @@ const renderSteps = () => (
     ))
 )
 
-export default () => (
+const StepsGrid = () => (
     <div className={styles.stepsWrapper}>
         <Container>
             <Row>
@@ -69,3 +69,5 @@ export default () => (
         </Container>
     </div>
 )
+
+export default StepsGrid;

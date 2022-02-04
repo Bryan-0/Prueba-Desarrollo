@@ -1,6 +1,6 @@
 import styles from '../../styles/Citas/CitaOne.module.css';
 
-export default () => (
+const CitaOne = () => (
     <>
         <div className={styles.desktopCitaImg}>
             <img className={styles.citaImg} src="/images/citaOne/cita.png" />
@@ -10,3 +10,5 @@ export default () => (
         </div>
     </>
 )
+
+export default CitaOne;

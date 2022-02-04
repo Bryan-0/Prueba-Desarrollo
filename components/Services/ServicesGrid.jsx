@@ -43,7 +43,7 @@ const renderServices = () => (
     ))
 )
 
-export default () => (
+const ServicesGrid = () => (
     <div className={styles.servicesGridWrapper}>
         <Container>
             <Row>
@@ -52,3 +52,5 @@ export default () => (
         </Container>
     </div>
 )
+
+export default ServicesGrid;

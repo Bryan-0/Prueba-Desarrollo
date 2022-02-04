@@ -1,6 +1,6 @@
 import styles from '../../styles/Citas/CitaMobile.module.css';
 
-export default () => (
+const CitaMobile = () => (
     <section className={styles.citaImgBackground}>
         <div className={styles.contentWrapper}>
             <div className={styles.citaTitle}>
@@ -17,3 +17,5 @@ export default () => (
         </div>
     </section>
 )
+
+export default CitaMobile;

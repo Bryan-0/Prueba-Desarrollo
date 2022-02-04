@@ -1,7 +1,7 @@
 import styles from '../../styles/Steps/Steps.module.css';
 import StepsGrid from './StepsGrid';
 
-export default () => (
+const Steps = () => (
     <div className={styles.stepsImgBackground}>
         <div className={styles.stepsMainTitle}>
             Vender tu piso nunca fue tan fácil
@@ -13,3 +13,5 @@ export default () => (
         <StepsGrid />
     </div>
 )
+
+export default Steps;

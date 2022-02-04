@@ -11,7 +11,7 @@ const isElementInViewport = (el) => {
         rect.top < (window.innerHeight || document.documentElement.clientHeight) /* or $(window).height() */;
 }
 
-export default () => {
+const Feedback = () => {
     const [feedbackList, setFeedbackList] = useState([]);
     const [currentFeedbackPosition, setCurrentFeedbackPosition] = useState(0);
 
@@ -89,3 +89,5 @@ export default () => {
         </>
     )
 }
+
+export default Feedback;
